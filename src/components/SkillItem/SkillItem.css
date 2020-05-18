@@ -1,0 +1,19 @@
+.one-skill {
+  width: 27%;
+  margin: 50px 0;
+}
+.one-skill img {
+  float: left;
+  display: block;
+  margin-right: 15px;
+}
+.one-skill p {
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 5px;
+}
+.one-skill .progress {
+  background-color: #dedede;
+  height: 7px;
+}

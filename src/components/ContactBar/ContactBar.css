@@ -1,0 +1,28 @@
+.contact-bar{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  z-index: 100;
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  width: 200px;
+  justify-content: center;
+}
+.visiable{
+  animation-name: contact;
+  animation-duration: 1.3s;
+  animation-fill-mode: forwards;
+  opacity: 1!important;
+  visibility: visible!important;
+}
+@keyframes contact {
+  from{transform: scaleX(50%); opacity: 0;}
+  to{transform: scaleX(100%); opacity: 1!important;}
+}
+@media (max-width: 576px){
+  .contact-bar{
+    opacity: 0;
+    visibility: hidden;
+  }
+}

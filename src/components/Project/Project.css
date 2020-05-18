@@ -1,0 +1,24 @@
+.project {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.container-project {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* responsive */
+
+@media (max-width: 576px) {
+  .container-project {
+    padding: 100px 15px 0 15px;
+  }
+  .col-title-site-2{
+    margin-bottom: 20px;
+    margin-top: -25px;
+  }
+}

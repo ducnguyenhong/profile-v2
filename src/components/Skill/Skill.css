@@ -1,0 +1,33 @@
+.container-skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* responsive */
+
+@media (max-width: 576px) {
+  .col-title-site {
+    margin-top: -25px;
+  }
+  .one-skill {
+    margin: 15px 0 !important;
+  }
+  .one-skill p {
+    font-size: 16px !important;
+  }
+  .one-skill img {
+    float: none !important;
+    margin: 0 auto;
+  }
+  .one-skill .progress {
+    height: 10px;
+  }
+
+}

@@ -1,0 +1,25 @@
+.one-question{
+  margin-bottom: 25px;
+}
+.one-question h4{
+  cursor: pointer;
+  font-size: 27px;
+  transition: 0.2s;
+}
+.one-question p{
+  padding: 0 33px;
+  font-size: 19px;
+  opacity: 0;
+  height: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.color-answer{
+  color: #24DFF3!important;
+}
+.show-answer{
+  opacity: 1!important;
+  height: 28px!important;
+  visibility: visible!important;
+  transition: 0.5s;
+}

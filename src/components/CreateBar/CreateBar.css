@@ -1,0 +1,68 @@
+.create-bar{
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  z-index: 100;
+  width: 50px;
+  height: 310px;
+}
+.create-bar-logo{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 50px;
+  z-index: 100;
+  cursor: pointer;
+  transition: 0.3s;
+  opacity: 0.7;
+}
+.create-bar-logo:hover{
+  opacity: 1;
+}
+.create-bar-content{
+  position: absolute;
+  border-radius: 30px;
+  top: 0;
+  z-index: 99;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffffff38;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+.create-bar-content a, .lily-bot{
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.65;
+}
+.create-bar-content a:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  opacity: 1;
+}
+.lily-bot:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  opacity: 1;
+}
+.show-create-bar{
+  transition: 0.4s;
+  opacity: 1!important;
+  visibility: visible!important;
+}
+.rotate-create-bar{
+  transform: rotate(45deg);
+  transition: 0.3s;
+}
+@media (max-width: 576px){
+  .create-bar{
+    opacity: 0;
+    visibility: hidden;
+  }
+}

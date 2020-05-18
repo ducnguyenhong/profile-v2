@@ -1,0 +1,42 @@
+.contact-bar-one{
+  margin: 30px 0;
+  position: relative;
+}
+.contact-bar-logo{
+  width: 40px;
+  z-index: 100;
+  cursor: pointer;
+  transition: 0.4s;
+  opacity: 0.7;
+}
+.contact-bar-logo:hover{
+  transform: scale(1.1);
+  transition: 0.4s;
+  opacity: 1;
+}
+.buble-cloud{
+  width: 150px;
+  height: 70px;
+  position: absolute;
+  right: 15px;
+  top: -50px;
+  opacity: 0;
+  visibility: hidden;
+}
+.buble-cloud a{
+  position: absolute;
+  top: 30%;
+  right: 20%;
+  color: green;
+  transition: 0.2s;
+}
+.buble-cloud a:hover{
+  text-decoration: none;
+  color: red;
+  transition: 0.2s;
+}
+.buble-cloud img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
